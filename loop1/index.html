@@ -1,0 +1,54 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Segmented Control</title><link rel="stylesheet" href="style.css"></head><body><div class="container"> <select name="sorting-method" id="sorting-method" onchange="checking(value)"><option value="price">Sort by price</option><option value="name">Sort by name</option><option value="relevance">Sort by ID number</option> </select><div class="segmented__control" id="segCtrl"> <input type="radio" name="sorting" id="price" onchange="checking('price')" checked> <label for="price">Sort by price</label><input type="radio" name="sorting" id="name" onchange="checking('name')"> <label for="name">Sort by name</label><input type="radio" name="sorting" id="relevance" onchange="checking('relevance')"> <label for="relevance">Sort by ID number</label></div><table><tr><th>Nomi</th><th>Narxi</th><th>ID raqami</th></tr></table><table class="table"></table> <template class="fruits__table"><tr class="row"><td class="name"></td><td class="cost"></td><td class="id"></td></tr></template></div> <script src="script.js"></script> </body></html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segmented Control</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <select name="sorting-method" id="sorting-method" onchange="checking(value)">
+            <option value="price">Sort by price</option>
+            <option value="name">Sort by name</option>
+            <option value="relevance">Sort by ID number</option>
+        </select>
+        <div class="segmented__control" id="segCtrl">
+            <input type="radio" name="sorting" id="price" onchange="checking('price')" checked>
+            <label for="price">Sort by price</label>
+
+            <input type="radio" name="sorting" id="name" onchange="checking('name')">
+            <label for="name">Sort by name</label>
+
+            <input type="radio" name="sorting" id="relevance" onchange="checking('relevance')">
+            <label for="relevance">Sort by ID number</label>
+        </div>
+        <table>
+            <tr>
+                <th>Nomi</th>
+                <th>Narxi</th>
+                <th>ID raqami</th>
+            </tr>
+        </table>
+        <table class="table"></table>
+        <template class="fruits__table">
+
+            <tr class="row">
+                <td class="name"></td>
+                <td class="cost"></td>
+                <td class="id"></td>
+            </tr>
+
+        </template>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html> -->
