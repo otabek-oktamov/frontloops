@@ -59,10 +59,6 @@ function rdmSwitch(switcher, index) {
 
 
 
-
-
-
-
 // const inputs = document.querySelectorAll('input');
 // const container = document.querySelector('.container');
 // inputs.forEach(item => {
